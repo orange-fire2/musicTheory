@@ -1,0 +1,1981 @@
+[
+  {
+    "id": 1,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "What interval separates G and C?",
+    "options": [
+      "Perfect 4th",
+      "Minor 6th",
+      "Major 3rd",
+      "Tritone"
+    ],
+    "answer": 0,
+    "why": "G to C spans 5 semitones: a Perfect 4th."
+  },
+  {
+    "id": 2,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "What interval separates E♭ and B♭?",
+    "options": [
+      "Minor 6th",
+      "Perfect 4th",
+      "Major 3rd",
+      "Perfect 5th"
+    ],
+    "answer": 3,
+    "why": "E♭ to B♭ spans 7 semitones: a Perfect 5th."
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "What interval separates B♭ and F?",
+    "options": [
+      "Perfect 5th",
+      "Perfect 4th",
+      "Major 6th",
+      "Minor 7th"
+    ],
+    "answer": 0,
+    "why": "B♭ to F spans 7 semitones: a Perfect 5th."
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "What interval separates F and D?",
+    "options": [
+      "Major 6th",
+      "Major 7th",
+      "Minor 3rd",
+      "Major 3rd"
+    ],
+    "answer": 0,
+    "why": "F to D spans 9 semitones: a Major 6th."
+  },
+  {
+    "id": 5,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "tf",
+    "q": "D to C♯ is a Major 7th.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": "D to C♯ spans 11 semitones: a Major 7th."
+  },
+  {
+    "id": 6,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "What interval separates F and B♭?",
+    "options": [
+      "Major 3rd",
+      "Minor 7th",
+      "Perfect 4th",
+      "Major 6th"
+    ],
+    "answer": 2,
+    "why": "F to B♭ spans 5 semitones: a Perfect 4th."
+  },
+  {
+    "id": 7,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "tf",
+    "q": "A♭ to F is a Minor 7th.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "why": "A♭ to F spans 9 semitones: a Major 6th."
+  },
+  {
+    "id": 8,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "What interval separates E and B?",
+    "options": [
+      "Major 7th",
+      "Major 2nd",
+      "Perfect 5th",
+      "Tritone"
+    ],
+    "answer": 2,
+    "why": "E to B spans 7 semitones: a Perfect 5th."
+  },
+  {
+    "id": 9,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "tf",
+    "q": "F to D is a Major 3rd.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "why": "F to D spans 9 semitones: a Major 6th."
+  },
+  {
+    "id": 10,
+    "level": 1,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "What interval separates F♯ and C♯?",
+    "options": [
+      "Perfect 5th",
+      "Major 6th",
+      "Major 3rd",
+      "Minor 3rd"
+    ],
+    "answer": 0,
+    "why": "F♯ to C♯ spans 7 semitones: a Perfect 5th."
+  },
+  {
+    "id": 11,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "mc",
+    "q": "Which note is the 6th degree of F major?",
+    "options": [
+      "D",
+      "E",
+      "D♭",
+      "A"
+    ],
+    "answer": 0,
+    "why": "F major: F – G – A – B♭ – C – D – E."
+  },
+  {
+    "id": 12,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "tf",
+    "q": "The A major scale contains B.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": "A major: A – B – C♯ – D – E – F♯ – G♯."
+  },
+  {
+    "id": 13,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "tf",
+    "q": "The B♭ major scale contains G♯.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "why": "B♭ major: B♭ – C – D – E♭ – F – G – A."
+  },
+  {
+    "id": 14,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "mc",
+    "q": "Which note is the 3rd degree of B major?",
+    "options": [
+      "F♯",
+      "D♯",
+      "D♯♯",
+      "G♯"
+    ],
+    "answer": 1,
+    "why": "B major: B – C♯ – D♯ – E – F♯ – G♯ – A♯."
+  },
+  {
+    "id": 15,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "mc",
+    "q": "Which note is the 4th degree of E major?",
+    "options": [
+      "D♯",
+      "A",
+      "F♯",
+      "B"
+    ],
+    "answer": 1,
+    "why": "E major: E – F♯ – G♯ – A – B – C♯ – D♯."
+  },
+  {
+    "id": 16,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "mc",
+    "q": "Which note is the 7th degree of F♯ major?",
+    "options": [
+      "D♯",
+      "E♯",
+      "G♯",
+      "A♯"
+    ],
+    "answer": 1,
+    "why": "F♯ major: F♯ – G♯ – A♯ – B – C♯ – D♯ – E♯."
+  },
+  {
+    "id": 17,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "tf",
+    "q": "The A major scale contains C♯.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": "A major: A – B – C♯ – D – E – F♯ – G♯."
+  },
+  {
+    "id": 18,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "mc",
+    "q": "Which note is the 2nd degree of C major?",
+    "options": [
+      "D♯",
+      "A",
+      "D",
+      "E"
+    ],
+    "answer": 2,
+    "why": "C major: C – D – E – F – G – A – B."
+  },
+  {
+    "id": 19,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "tf",
+    "q": "The A♭ major scale contains G.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": "A♭ major: A♭ – B♭ – C – D♭ – E♭ – F – G."
+  },
+  {
+    "id": 20,
+    "level": 2,
+    "topic": "Major scales",
+    "type": "tf",
+    "q": "The C major scale contains A♯.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "why": "C major: C – D – E – F – G – A – B."
+  },
+  {
+    "id": 21,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "mc",
+    "q": "Which major key has 5 flats?",
+    "options": [
+      "D major",
+      "D♭ major",
+      "E♭ major",
+      "A major"
+    ],
+    "answer": 1,
+    "why": "D♭ major has 5 flats."
+  },
+  {
+    "id": 22,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "tf",
+    "q": "E♭ major has 3 flats.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": "E♭ major has 3 flats."
+  },
+  {
+    "id": 23,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "mc",
+    "q": "Which major key has 6 sharps?",
+    "options": [
+      "B♭ major",
+      "F♯ major",
+      "D major",
+      "E major"
+    ],
+    "answer": 1,
+    "why": "F♯ major has 6 sharps."
+  },
+  {
+    "id": 24,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "tf",
+    "q": "A♭ major has 4 flats.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": "A♭ major has 4 flats."
+  },
+  {
+    "id": 25,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "mc",
+    "q": "How many sharps or flats does G major have?",
+    "options": [
+      "2 sharps",
+      "6 sharps",
+      "1 sharp",
+      "no sharps or flats"
+    ],
+    "answer": 2,
+    "why": "G major has 1 sharp."
+  },
+  {
+    "id": 26,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "mc",
+    "q": "Which major key has 4 flats?",
+    "options": [
+      "D♭ major",
+      "F major",
+      "A♭ major",
+      "E major"
+    ],
+    "answer": 2,
+    "why": "A♭ major has 4 flats."
+  },
+  {
+    "id": 27,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "tf",
+    "q": "B♭ major has no sharps or flats.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "why": "B♭ major has 2 flats."
+  },
+  {
+    "id": 28,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "mc",
+    "q": "Which major key has no sharps or flats?",
+    "options": [
+      "F major",
+      "E major",
+      "A♭ major",
+      "C major"
+    ],
+    "answer": 3,
+    "why": "C major has no sharps or flats."
+  },
+  {
+    "id": 29,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "mc",
+    "q": "How many sharps or flats does D major have?",
+    "options": [
+      "1 flat",
+      "3 flats",
+      "5 flats",
+      "2 sharps"
+    ],
+    "answer": 3,
+    "why": "D major has 2 sharps."
+  },
+  {
+    "id": 30,
+    "level": 3,
+    "topic": "Key signatures",
+    "type": "mc",
+    "q": "How many sharps or flats does A major have?",
+    "options": [
+      "1 sharp",
+      "3 sharps",
+      "4 flats",
+      "6 sharps"
+    ],
+    "answer": 1,
+    "why": "A major has 3 sharps."
+  },
+  {
+    "id": 31,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "C – E♭ – G spells which chord?",
+    "options": [
+      "C diminished",
+      "C minor",
+      "C augmented",
+      "C major"
+    ],
+    "answer": 1,
+    "why": "A minor triad is 1 – ♭3 – 5: C – E♭ – G."
+  },
+  {
+    "id": 32,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "E♭ – G♭ – B♭ spells which chord?",
+    "options": [
+      "E♭ diminished",
+      "E♭ augmented",
+      "E♭ minor",
+      "E♭ major"
+    ],
+    "answer": 2,
+    "why": "A minor triad is 1 – ♭3 – 5: E♭ – G♭ – B♭."
+  },
+  {
+    "id": 33,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "D – F♯ – A spells which chord?",
+    "options": [
+      "D augmented",
+      "D major",
+      "D diminished",
+      "D minor"
+    ],
+    "answer": 1,
+    "why": "A major triad is 1 – 3 – 5: D – F♯ – A."
+  },
+  {
+    "id": 34,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "Which notes spell E minor?",
+    "options": [
+      "E – G – B",
+      "E – G♯ – B",
+      "E – G – B♭",
+      "E – G♯ – B♯"
+    ],
+    "answer": 0,
+    "why": "A minor triad is 1 – ♭3 – 5: E – G – B."
+  },
+  {
+    "id": 35,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "Which notes spell C major?",
+    "options": [
+      "C – E – G♯",
+      "C – E♭ – G",
+      "C – E♭ – G♭",
+      "C – E – G"
+    ],
+    "answer": 3,
+    "why": "A major triad is 1 – 3 – 5: C – E – G."
+  },
+  {
+    "id": 36,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "B – D – F♯ spells which chord?",
+    "options": [
+      "B augmented",
+      "B minor",
+      "B diminished",
+      "B major"
+    ],
+    "answer": 1,
+    "why": "A minor triad is 1 – ♭3 – 5: B – D – F♯."
+  },
+  {
+    "id": 37,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "Which notes spell E♭ minor?",
+    "options": [
+      "E♭ – G♭ – B♭",
+      "E♭ – G♭ – B♭♭",
+      "E♭ – G – B",
+      "E♭ – G – B♭"
+    ],
+    "answer": 0,
+    "why": "A minor triad is 1 – ♭3 – 5: E♭ – G♭ – B♭."
+  },
+  {
+    "id": 38,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "B – D♯ – F♯ spells which chord?",
+    "options": [
+      "B augmented",
+      "B major",
+      "B diminished",
+      "B minor"
+    ],
+    "answer": 1,
+    "why": "A major triad is 1 – 3 – 5: B – D♯ – F♯."
+  },
+  {
+    "id": 39,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "Which notes spell D major?",
+    "options": [
+      "D – F – A♭",
+      "D – F♯ – A♯",
+      "D – F – A",
+      "D – F♯ – A"
+    ],
+    "answer": 3,
+    "why": "A major triad is 1 – 3 – 5: D – F♯ – A."
+  },
+  {
+    "id": 40,
+    "level": 4,
+    "topic": "Triads",
+    "type": "mc",
+    "q": "Which notes spell B minor?",
+    "options": [
+      "B – D♯ – F♯♯",
+      "B – D – F",
+      "B – D – F♯",
+      "B – D♯ – F♯"
+    ],
+    "answer": 2,
+    "why": "A minor triad is 1 – ♭3 – 5: B – D – F♯."
+  },
+  {
+    "id": 41,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "mc",
+    "q": "G minor is the relative minor of which major key?",
+    "options": [
+      "A♭ major",
+      "F♯ major",
+      "B♭ major",
+      "F major"
+    ],
+    "answer": 2,
+    "why": "The relative minor sits on the 6th degree: B♭ major ↔ G minor."
+  },
+  {
+    "id": 42,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "mc",
+    "q": "What is the relative minor of C major?",
+    "options": [
+      "B♭ minor",
+      "A minor",
+      "C minor",
+      "F minor"
+    ],
+    "answer": 1,
+    "why": "The relative minor sits on the 6th degree: C major ↔ A minor."
+  },
+  {
+    "id": 43,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "mc",
+    "q": "A minor is the relative minor of which major key?",
+    "options": [
+      "G major",
+      "E major",
+      "A♭ major",
+      "C major"
+    ],
+    "answer": 3,
+    "why": "The relative minor sits on the 6th degree: C major ↔ A minor."
+  },
+  {
+    "id": 44,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "tf",
+    "q": "F major and D minor share a key signature.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": "The relative minor sits on the 6th degree: F major ↔ D minor."
+  },
+  {
+    "id": 45,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "tf",
+    "q": "B major and G♯ minor share a key signature.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": "The relative minor sits on the 6th degree: B major ↔ G♯ minor."
+  },
+  {
+    "id": 46,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "mc",
+    "q": "What is the relative minor of E major?",
+    "options": [
+      "C♯ minor",
+      "F♯ minor",
+      "D♯ minor",
+      "G minor"
+    ],
+    "answer": 0,
+    "why": "The relative minor sits on the 6th degree: E major ↔ C♯ minor."
+  },
+  {
+    "id": 47,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "tf",
+    "q": "A♭ major and B♭ minor share a key signature.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "why": "The relative minor sits on the 6th degree: A♭ major ↔ F minor."
+  },
+  {
+    "id": 48,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "tf",
+    "q": "B major and C♯ minor share a key signature.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "why": "The relative minor sits on the 6th degree: B major ↔ G♯ minor."
+  },
+  {
+    "id": 49,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "mc",
+    "q": "D minor is the relative minor of which major key?",
+    "options": [
+      "F major",
+      "G major",
+      "C major",
+      "D major"
+    ],
+    "answer": 0,
+    "why": "The relative minor sits on the 6th degree: F major ↔ D minor."
+  },
+  {
+    "id": 50,
+    "level": 5,
+    "topic": "Relative keys",
+    "type": "mc",
+    "q": "B minor is the relative minor of which major key?",
+    "options": [
+      "D major",
+      "E♭ major",
+      "C major",
+      "G major"
+    ],
+    "answer": 0,
+    "why": "The relative minor sits on the 6th degree: D major ↔ B minor."
+  },
+  {
+    "id": 51,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "How many semitones are in a Minor 7th?",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "7"
+    ],
+    "answer": 1,
+    "why": "A Minor 7th spans 10 semitones."
+  },
+  {
+    "id": 52,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "How many semitones are in a Major 2nd?",
+    "options": [
+      "10",
+      "2",
+      "8",
+      "7"
+    ],
+    "answer": 1,
+    "why": "A Major 2nd spans 2 semitones."
+  },
+  {
+    "id": 53,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "Which interval spans 12 semitones?",
+    "options": [
+      "Octave",
+      "Major 3rd",
+      "Perfect 4th",
+      "Minor 3rd"
+    ],
+    "answer": 0,
+    "why": "A Octave spans 12 semitones."
+  },
+  {
+    "id": 54,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "How many semitones are in a Tritone?",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "1"
+    ],
+    "answer": 0,
+    "why": "A Tritone spans 6 semitones."
+  },
+  {
+    "id": 55,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "How many semitones are in a Major 6th?",
+    "options": [
+      "10",
+      "9",
+      "3",
+      "1"
+    ],
+    "answer": 1,
+    "why": "A Major 6th spans 9 semitones."
+  },
+  {
+    "id": 56,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "How many semitones are in a Minor 3rd?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "10"
+    ],
+    "answer": 2,
+    "why": "A Minor 3rd spans 3 semitones."
+  },
+  {
+    "id": 57,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "How many semitones are in a Perfect 4th?",
+    "options": [
+      "11",
+      "4",
+      "5",
+      "3"
+    ],
+    "answer": 2,
+    "why": "A Perfect 4th spans 5 semitones."
+  },
+  {
+    "id": 58,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "How many semitones are in a Minor 6th?",
+    "options": [
+      "2",
+      "8",
+      "5",
+      "7"
+    ],
+    "answer": 1,
+    "why": "A Minor 6th spans 8 semitones."
+  },
+  {
+    "id": 59,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "Which interval spans 6 semitones?",
+    "options": [
+      "Tritone",
+      "Major 2nd",
+      "Minor 7th",
+      "Major 6th"
+    ],
+    "answer": 0,
+    "why": "A Tritone spans 6 semitones."
+  },
+  {
+    "id": 60,
+    "level": 6,
+    "topic": "Intervals",
+    "type": "mc",
+    "q": "How many semitones are in a Perfect 5th?",
+    "options": [
+      "7",
+      "12",
+      "4",
+      "9"
+    ],
+    "answer": 0,
+    "why": "A Perfect 5th spans 7 semitones."
+  },
+  {
+    "id": 61,
+    "level": 7,
+    "topic": "Modes",
+    "type": "tf",
+    "q": "Locrian has a perfect 5th above the tonic.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "why": "Locrian has a diminished 5th (♭5)."
+  },
+  {
+    "id": 62,
+    "level": 7,
+    "topic": "Modes",
+    "type": "mc",
+    "q": "A Mixolydian uses the same notes as which major scale?",
+    "options": [
+      "D♭ major",
+      "D major",
+      "B♭ major",
+      "A major"
+    ],
+    "answer": 1,
+    "why": "A is the 5th degree of D major, so A Mixolydian shares its notes."
+  },
+  {
+    "id": 63,
+    "level": 7,
+    "topic": "Modes",
+    "type": "mc",
+    "q": "Which mode starts on the 7th degree of the major scale?",
+    "options": [
+      "Dorian",
+      "Lydian",
+      "Locrian",
+      "Phrygian"
+    ],
+    "answer": 2,
+    "why": "Degree 7 of the major scale gives Locrian."
+  },
+  {
+    "id": 64,
+    "level": 7,
+    "topic": "Modes",
+    "type": "mc",
+    "q": "A Lydian uses the same notes as which major scale?",
+    "options": [
+      "A♭ major",
+      "B♭ major",
+      "E major",
+      "D♭ major"
+    ],
+    "answer": 2,
+    "why": "A is the 4th degree of E major, so A Lydian shares its notes."
+  },
+  {
+    "id": 65,
+    "level": 7,
+    "topic": "Modes",
+    "type": "mc",
+    "q": "C♯ Dorian uses the same notes as which major scale?",
+    "options": [
+      "B major",
+      "A♭ major",
+      "E♭ major",
+      "F major"
+    ],
+    "answer": 0,
+    "why": "C♯ is the 2nd degree of B major, so C♯ Dorian shares its notes."
+  },
+  {
+    "id": 66,
+    "level": 7,
+    "topic": "Modes",
+    "type": "mc",
+    "q": "G Mixolydian uses the same notes as which major scale?",
+    "options": [
+      "B major",
+      "A major",
+      "C major",
+      "G major"
+    ],
+    "answer": 2,
+    "why": "G is the 5th degree of C major, so G Mixolydian shares its notes."
+  },
+  {
+    "id": 67,
+    "level": 7,
+    "topic": "Modes",
+    "type": "mc",
+    "q": "B♭ Mixolydian uses the same notes as which major scale?",
+    "options": [
+      "D♭ major",
+      "F major",
+      "B major",
+      "E♭ major"
+    ],
+    "answer": 3,
+    "why": "B♭ is the 5th degree of E♭ major, so B♭ Mixolydian shares its notes."
+  },
+  {
+    "id": 68,
+    "level": 7,
+    "topic": "Modes",
+    "type": "mc",
+    "q": "E♭ Lydian uses the same notes as which major scale?",
+    "options": [
+      "B♭ major",
+      "B major",
+      "C major",
+      "A major"
+    ],
+    "answer": 0,
+    "why": "E♭ is the 4th degree of B♭ major, so E♭ Lydian shares its notes."
+  },
+  {
+    "id": 69,
+    "level": 7,
+    "topic": "Modes",
+    "type": "mc",
+    "q": "Which mode starts on the 2nd degree of the major scale?",
+    "options": [
+      "Aeolian",
+      "Mixolydian",
+      "Dorian",
+      "Phrygian"
+    ],
+    "answer": 2,
+    "why": "Degree 2 of the major scale gives Dorian."
+  },
+  {
+    "id": 70,
+    "level": 7,
+    "topic": "Modes",
+    "type": "mc",
+    "q": "G Aeolian uses the same notes as which major scale?",
+    "options": [
+      "G major",
+      "D major",
+      "A♭ major",
+      "B♭ major"
+    ],
+    "answer": 3,
+    "why": "G is the 6th degree of B♭ major, so G Aeolian shares its notes."
+  },
+  {
+    "id": 71,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "C – E – G – B is which chord?",
+    "options": [
+      "Cmaj7",
+      "Cm7",
+      "Cm7♭5",
+      "C7"
+    ],
+    "answer": 0,
+    "why": "Cmaj7 is 1 – 3 – 5 – 7: C – E – G – B."
+  },
+  {
+    "id": 72,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "Which notes spell Bm7?",
+    "options": [
+      "B – D♯ – F♯ – A♯",
+      "B – D♯ – F♯ – A",
+      "B – D – F♯ – A♯",
+      "B – D – F♯ – A"
+    ],
+    "answer": 3,
+    "why": "Bm7 is 1 – ♭3 – 5 – ♭7: B – D – F♯ – A."
+  },
+  {
+    "id": 73,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "Which notes spell Dmaj7?",
+    "options": [
+      "D – F♯ – A – C♯",
+      "D – F – A – C♯",
+      "D – F♯ – A – C",
+      "D – F – A – C"
+    ],
+    "answer": 0,
+    "why": "Dmaj7 is 1 – 3 – 5 – 7: D – F♯ – A – C♯."
+  },
+  {
+    "id": 74,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "Which notes spell A♭m7?",
+    "options": [
+      "A♭ – C – E♭ – G♭",
+      "A♭ – C – E♭ – G",
+      "A♭ – C♭ – E♭ – G",
+      "A♭ – C♭ – E♭ – G♭"
+    ],
+    "answer": 3,
+    "why": "A♭m7 is 1 – ♭3 – 5 – ♭7: A♭ – C♭ – E♭ – G♭."
+  },
+  {
+    "id": 75,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "Which notes spell D♭m7?",
+    "options": [
+      "D♭ – F♭ – A♭ – C♭",
+      "D♭ – F♭ – A♭ – C",
+      "D♭ – F – A♭ – C",
+      "D♭ – F – A♭ – C♭"
+    ],
+    "answer": 0,
+    "why": "D♭m7 is 1 – ♭3 – 5 – ♭7: D♭ – F♭ – A♭ – C♭."
+  },
+  {
+    "id": 76,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "Which notes spell Bmaj7?",
+    "options": [
+      "B – D – F♯ – A♯",
+      "B – D♯ – F♯ – A♯",
+      "B – D♯ – F♯ – A",
+      "B – D – F♯ – A"
+    ],
+    "answer": 1,
+    "why": "Bmaj7 is 1 – 3 – 5 – 7: B – D♯ – F♯ – A♯."
+  },
+  {
+    "id": 77,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "Which notes spell E♭maj7?",
+    "options": [
+      "E♭ – G♭ – B♭ – D♭",
+      "E♭ – G – B♭ – D",
+      "E♭ – G♭ – B♭ – D",
+      "E♭ – G – B♭ – D♭"
+    ],
+    "answer": 1,
+    "why": "E♭maj7 is 1 – 3 – 5 – 7: E♭ – G – B♭ – D."
+  },
+  {
+    "id": 78,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "Which notes spell Em7?",
+    "options": [
+      "E – G – B – D♯",
+      "E – G – B – D",
+      "E – G♯ – B – D",
+      "E – G♯ – B – D♯"
+    ],
+    "answer": 1,
+    "why": "Em7 is 1 – ♭3 – 5 – ♭7: E – G – B – D."
+  },
+  {
+    "id": 79,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "D – F – A – C is which chord?",
+    "options": [
+      "Dmaj7",
+      "D7",
+      "Dm7♭5",
+      "Dm7"
+    ],
+    "answer": 3,
+    "why": "Dm7 is 1 – ♭3 – 5 – ♭7: D – F – A – C."
+  },
+  {
+    "id": 80,
+    "level": 8,
+    "topic": "Seventh chords",
+    "type": "mc",
+    "q": "E – G♯ – B – D is which chord?",
+    "options": [
+      "Em7",
+      "Emaj7",
+      "E7",
+      "Em7♭5"
+    ],
+    "answer": 2,
+    "why": "E7 is 1 – 3 – 5 – ♭7: E – G♯ – B – D."
+  },
+  {
+    "id": 81,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In D major, Em is which Roman numeral?",
+    "options": [
+      "iii",
+      "ii",
+      "vii°",
+      "V"
+    ],
+    "answer": 1,
+    "why": "In D major the ii chord is Em."
+  },
+  {
+    "id": 82,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In E major, F♯m is which Roman numeral?",
+    "options": [
+      "I",
+      "vi",
+      "ii",
+      "V"
+    ],
+    "answer": 2,
+    "why": "In E major the ii chord is F♯m."
+  },
+  {
+    "id": 83,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In D major, Bm is which Roman numeral?",
+    "options": [
+      "V",
+      "I",
+      "IV",
+      "vi"
+    ],
+    "answer": 3,
+    "why": "In D major the vi chord is Bm."
+  },
+  {
+    "id": 84,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In B major, which chord is vii°?",
+    "options": [
+      "A♯m",
+      "A♯",
+      "A♯dim",
+      "D♯m"
+    ],
+    "answer": 2,
+    "why": "In B major the vii° chord is A♯dim."
+  },
+  {
+    "id": 85,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In A major, Bm is which Roman numeral?",
+    "options": [
+      "ii",
+      "IV",
+      "iii",
+      "V"
+    ],
+    "answer": 0,
+    "why": "In A major the ii chord is Bm."
+  },
+  {
+    "id": 86,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In F major, B♭ is which Roman numeral?",
+    "options": [
+      "IV",
+      "iii",
+      "ii",
+      "vii°"
+    ],
+    "answer": 0,
+    "why": "In F major the IV chord is B♭."
+  },
+  {
+    "id": 87,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In G major, Am is which Roman numeral?",
+    "options": [
+      "IV",
+      "vii°",
+      "ii",
+      "I"
+    ],
+    "answer": 2,
+    "why": "In G major the ii chord is Am."
+  },
+  {
+    "id": 88,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In A major, which chord is vi?",
+    "options": [
+      "F♯m",
+      "G♯dim",
+      "Bm",
+      "F♯"
+    ],
+    "answer": 0,
+    "why": "In A major the vi chord is F♯m."
+  },
+  {
+    "id": 89,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In F♯ major, F♯ is which Roman numeral?",
+    "options": [
+      "V",
+      "IV",
+      "I",
+      "vi"
+    ],
+    "answer": 2,
+    "why": "In F♯ major the I chord is F♯."
+  },
+  {
+    "id": 90,
+    "level": 9,
+    "topic": "Diatonic chords",
+    "type": "mc",
+    "q": "In D major, which chord is V?",
+    "options": [
+      "D",
+      "Bm",
+      "Adim",
+      "A"
+    ],
+    "answer": 3,
+    "why": "In D major the V chord is A."
+  },
+  {
+    "id": 91,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the E major triad.",
+    "options": [
+      "D♯",
+      "G",
+      "G♯",
+      "E",
+      "A",
+      "B"
+    ],
+    "answer": [
+      2,
+      3,
+      5
+    ],
+    "why": "The E major triad contains E – G♯ – B."
+  },
+  {
+    "id": 92,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the C major triad.",
+    "options": [
+      "E♭",
+      "G",
+      "E",
+      "C",
+      "D",
+      "B"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "why": "The C major triad contains C – E – G."
+  },
+  {
+    "id": 93,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the E♭ major 7th chord.",
+    "options": [
+      "F",
+      "C",
+      "D",
+      "E♭",
+      "G♭",
+      "B♭",
+      "G"
+    ],
+    "answer": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "why": "The E♭ major 7th chord contains E♭ – G – B♭ – D."
+  },
+  {
+    "id": 94,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the G minor triad.",
+    "options": [
+      "B♭",
+      "F♯",
+      "D",
+      "C",
+      "B",
+      "G"
+    ],
+    "answer": [
+      0,
+      2,
+      5
+    ],
+    "why": "The G minor triad contains G – B♭ – D."
+  },
+  {
+    "id": 95,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the F dominant 7th chord.",
+    "options": [
+      "F",
+      "B♭",
+      "E",
+      "C",
+      "A",
+      "E♭"
+    ],
+    "answer": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "why": "The F dominant 7th chord contains F – A – C – E♭."
+  },
+  {
+    "id": 96,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the F minor triad.",
+    "options": [
+      "D",
+      "F",
+      "A♭",
+      "C",
+      "A"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "why": "The F minor triad contains F – A♭ – C."
+  },
+  {
+    "id": 97,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the D♭ minor triad.",
+    "options": [
+      "A♭",
+      "F",
+      "D♭",
+      "F♭",
+      "C"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "why": "The D♭ minor triad contains D♭ – F♭ – A♭."
+  },
+  {
+    "id": 98,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the D dominant 7th chord.",
+    "options": [
+      "B",
+      "G",
+      "F♯",
+      "D",
+      "C",
+      "C♯",
+      "A"
+    ],
+    "answer": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "why": "The D dominant 7th chord contains D – F♯ – A – C."
+  },
+  {
+    "id": 99,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the A♭ major triad.",
+    "options": [
+      "C♭",
+      "E♭",
+      "F",
+      "C",
+      "A♭",
+      "B♭"
+    ],
+    "answer": [
+      1,
+      3,
+      4
+    ],
+    "why": "The A♭ major triad contains A♭ – C – E♭."
+  },
+  {
+    "id": 100,
+    "level": 10,
+    "topic": "Chord tones",
+    "type": "multi",
+    "q": "Select every note in the G major triad.",
+    "options": [
+      "D",
+      "F♯",
+      "B♭",
+      "C",
+      "B",
+      "G"
+    ],
+    "answer": [
+      0,
+      4,
+      5
+    ],
+    "why": "The G major triad contains G – B – D."
+  },
+  {
+    "id": 101,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "mc",
+    "q": "Which cadence is V → I?",
+    "options": [
+      "Plagal",
+      "Perfect authentic",
+      "Deceptive",
+      "Half"
+    ],
+    "answer": 1,
+    "why": "The authentic cadence moves from dominant to tonic."
+  },
+  {
+    "id": 102,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "mc",
+    "q": "Which cadence is IV → I?",
+    "options": [
+      "Plagal",
+      "Authentic",
+      "Deceptive",
+      "Half"
+    ],
+    "answer": 0,
+    "why": "The plagal (\"Amen\") cadence moves from subdominant to tonic."
+  },
+  {
+    "id": 103,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "mc",
+    "q": "V → vi is known as which cadence?",
+    "options": [
+      "Half",
+      "Plagal",
+      "Deceptive",
+      "Phrygian"
+    ],
+    "answer": 2,
+    "why": "The deceptive cadence resolves the dominant to vi instead of I."
+  },
+  {
+    "id": 104,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "mc",
+    "q": "A half cadence ends on which chord?",
+    "options": [
+      "I",
+      "IV",
+      "vi",
+      "V"
+    ],
+    "answer": 3,
+    "why": "A half cadence pauses on the dominant."
+  },
+  {
+    "id": 105,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "mc",
+    "q": "In C major, what is the secondary dominant V/V?",
+    "options": [
+      "G7",
+      "D7",
+      "A7",
+      "E7"
+    ],
+    "answer": 1,
+    "why": "V of V is the dominant of G, which is D7."
+  },
+  {
+    "id": 106,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "mc",
+    "q": "Which scale degree is the leading tone?",
+    "options": [
+      "4th",
+      "5th",
+      "7th",
+      "2nd"
+    ],
+    "answer": 2,
+    "why": "The 7th degree sits a half step below the tonic and leads to it."
+  },
+  {
+    "id": 107,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "mc",
+    "q": "A chord in first inversion has which note in the bass?",
+    "options": [
+      "Root",
+      "Third",
+      "Fifth",
+      "Seventh"
+    ],
+    "answer": 1,
+    "why": "First inversion puts the 3rd in the bass."
+  },
+  {
+    "id": 108,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "mc",
+    "q": "Figured bass 6/4 indicates which position?",
+    "options": [
+      "Root position",
+      "First inversion",
+      "Second inversion",
+      "Third inversion"
+    ],
+    "answer": 2,
+    "why": "A 6/4 chord has its 5th in the bass: second inversion."
+  },
+  {
+    "id": 109,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "tf",
+    "q": "The subdominant is built on the 4th scale degree.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": "IV is the subdominant."
+  },
+  {
+    "id": 110,
+    "level": 11,
+    "topic": "Functional harmony",
+    "type": "mc",
+    "q": "Which chord can substitute for the tonic I?",
+    "options": [
+      "ii",
+      "vi",
+      "V",
+      "vii°"
+    ],
+    "answer": 1,
+    "why": "vi shares two notes with I and often has tonic function."
+  },
+  {
+    "id": 111,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "Which major-scale alteration produces Lydian?",
+    "options": [
+      "♭7",
+      "♯4",
+      "♭2",
+      "♯5"
+    ],
+    "answer": 1,
+    "why": "Lydian is major with a raised 4th."
+  },
+  {
+    "id": 112,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "What is the tritone substitution for G7?",
+    "options": [
+      "D♭7",
+      "C7",
+      "F♯m7",
+      "B♭7"
+    ],
+    "answer": 0,
+    "why": "D♭7 shares the 3rd and 7th (B and F) with G7."
+  },
+  {
+    "id": 113,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "In C major, the Neapolitan chord is built on which note?",
+    "options": [
+      "D",
+      "D♭",
+      "E♭",
+      "A♭"
+    ],
+    "answer": 1,
+    "why": "The Neapolitan is a major chord on ♭II, so D♭ major."
+  },
+  {
+    "id": 114,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "Which mode is the 5th mode of harmonic minor?",
+    "options": [
+      "Phrygian dominant",
+      "Dorian ♯4",
+      "Locrian ♮6",
+      "Ionian ♯5"
+    ],
+    "answer": 0,
+    "why": "Mode 5 of harmonic minor is Phrygian dominant."
+  },
+  {
+    "id": 115,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "A Picardy third is…",
+    "options": [
+      "A minor chord ending a major piece",
+      "A major tonic chord ending a minor piece",
+      "A raised 3rd in the melody only",
+      "A tritone leap"
+    ],
+    "answer": 1,
+    "why": "The raised 3rd turns the final minor chord major."
+  },
+  {
+    "id": 116,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "Which interval defines an augmented 6th chord?",
+    "options": [
+      "♭6 to ♯4",
+      "♭3 to ♭7",
+      "2 to 5",
+      "1 to ♭5"
+    ],
+    "answer": 0,
+    "why": "♭6 and ♯4 expand outward to the octave on 5."
+  },
+  {
+    "id": 117,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "In C major, borrowing ♭VI (A♭) comes from which parallel mode?",
+    "options": [
+      "C Lydian",
+      "C Aeolian (minor)",
+      "C Dorian",
+      "C Mixolydian"
+    ],
+    "answer": 1,
+    "why": "A♭ is the ♭VI of C natural minor."
+  },
+  {
+    "id": 118,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "Which scale degrees are raised in ascending melodic minor?",
+    "options": [
+      "3rd and 4th",
+      "6th and 7th",
+      "2nd and 5th",
+      "Only 7th"
+    ],
+    "answer": 1,
+    "why": "Compared with natural minor, the 6th and 7th are raised."
+  },
+  {
+    "id": 119,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "In C major, which chord is half-diminished (m7♭5)?",
+    "options": [
+      "Dm7",
+      "Bø7",
+      "Em7",
+      "Am7"
+    ],
+    "answer": 1,
+    "why": "vii in a major key is a half-diminished 7th: B–D–F–A."
+  },
+  {
+    "id": 120,
+    "level": 12,
+    "topic": "Advanced harmony",
+    "type": "mc",
+    "q": "A fully diminished 7th chord is a stack of…",
+    "options": [
+      "Major thirds",
+      "Minor thirds",
+      "Perfect fourths",
+      "Whole tones"
+    ],
+    "answer": 1,
+    "why": "Three stacked minor thirds make a °7 chord."
+  },
+  {
+    "id": 121,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "The altered scale is which mode of melodic minor?",
+    "options": [
+      "4th",
+      "5th",
+      "6th",
+      "7th"
+    ],
+    "answer": 3,
+    "why": "Altered (super Locrian) is the 7th mode of melodic minor."
+  },
+  {
+    "id": 122,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "Lydian dominant is the 4th mode of which scale?",
+    "options": [
+      "Harmonic minor",
+      "Melodic minor",
+      "Major",
+      "Whole tone"
+    ],
+    "answer": 1,
+    "why": "Mode 4 of melodic minor: Lydian ♭7."
+  },
+  {
+    "id": 123,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "How many semitones does a double sharp raise a note?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "½"
+    ],
+    "answer": 1,
+    "why": "Double sharp (𝄪) raises by two semitones."
+  },
+  {
+    "id": 124,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "How many distinct diminished 7th chords exist by pitch class?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "12"
+    ],
+    "answer": 0,
+    "why": "Their symmetry yields only 3 distinct sets of pitch classes."
+  },
+  {
+    "id": 125,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "How many distinct augmented triads exist by pitch class?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": 2,
+    "why": "Stacked major thirds repeat every 4 semitones, giving 4."
+  },
+  {
+    "id": 126,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "How many pitch classes are in the whole-tone scale?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 1,
+    "why": "The whole-tone scale has 6 notes per octave."
+  },
+  {
+    "id": 127,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "The octatonic (diminished) scale alternates which steps?",
+    "options": [
+      "Whole–half",
+      "Whole–whole–half",
+      "Half–half–whole",
+      "Whole–whole–whole"
+    ],
+    "answer": 0,
+    "why": "W–H (or H–W) repeating gives 8 notes."
+  },
+  {
+    "id": 128,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "Locrian ♮2 is which mode of melodic minor?",
+    "options": [
+      "3rd",
+      "5th",
+      "6th",
+      "7th"
+    ],
+    "answer": 2,
+    "why": "Mode 6 of melodic minor is Locrian ♮2."
+  },
+  {
+    "id": 129,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "Messiaen’s Mode 2 is better known as…",
+    "options": [
+      "Whole-tone scale",
+      "Octatonic scale",
+      "Chromatic scale",
+      "Pentatonic scale"
+    ],
+    "answer": 1,
+    "why": "Mode 2 is the octatonic scale."
+  },
+  {
+    "id": 130,
+    "level": 13,
+    "topic": "Expert theory",
+    "type": "mc",
+    "q": "Hungarian minor (1 2 ♭3 ♯4 5 ♭6 7) has an augmented 2nd between which degrees?",
+    "options": [
+      "1 and 2",
+      "♭3 and ♯4",
+      "5 and ♭6",
+      "7 and 1"
+    ],
+    "answer": 1,
+    "why": "E♭ to F♯ in C Hungarian minor spans 3 semitones."
+  }
+]
