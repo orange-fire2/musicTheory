@@ -1,0 +1,358 @@
+/* =========================================================
+   demo.css — quiz / practice session page
+   Loaded after styles.css, so it reuses its variables
+   (--bg, --purple, --text, --card-border, ...).
+   All classes are prefixed "quiz-" to avoid clashing with
+   the landing page (which already has .demo-card etc.).
+
+   Sections: 1 Tokens · 2 Layout · 3 Header · 4 Stats
+             5 Question card · 6 Options · 7 Footer/Help
+             8 Responsive
+   ========================================================= */
+
+
+/* ---------- 1. TOKENS (page-specific only) ---------- */
+:root {
+  --font-mono: 'SF Mono', Consolas, monospace;
+
+  --quiz-surface:        #120e22;               /* cards */
+  --quiz-surface-raised: #17122a;               /* question box, options */
+  --quiz-border:         #2a2340;
+  --quiz-border-accent:  rgba(139, 92, 246, 0.45);
+
+  --quiz-radius-lg: 24px;
+  --quiz-radius-md: 18px;
+  --quiz-radius-sm: 14px;
+  --quiz-gap: 20px;
+}
+
+
+/* ---------- 2. LAYOUT ---------- */
+.quiz {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+}
+
+/* shared look for small mono labels */
+.quiz-eyebrow,
+.quiz-counter,
+.quiz-progress-label,
+.quiz-stat-note,
+.quiz-option-key,
+.quiz-topic {
+  font-family: var(--font-mono);
+}
+
+
+/* ---------- 3. HEADER ---------- */
+.quiz-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--quiz-gap);
+  margin-bottom: 28px;
+}
+
+.quiz-eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-bottom: 6px;
+}
+
+.quiz-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.quiz-progress {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 32px;
+  background: var(--quiz-surface);
+  border: 1px solid var(--quiz-border-accent);
+  border-radius: var(--quiz-radius-md);
+}
+
+.quiz-progress-value {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--purple-light);
+}
+
+.quiz-progress-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+
+/* ---------- 4. STATS ---------- */
+.quiz-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--quiz-gap);
+  margin-bottom: 32px;
+}
+
+.quiz-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 16px;
+  background: var(--quiz-surface);
+  border: 1px solid var(--quiz-border-accent);
+  border-radius: var(--quiz-radius-md);
+}
+
+.quiz-stat-value {
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--purple-light);
+}
+
+.quiz-stat-label {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.quiz-stat-note {
+  margin-top: 2px;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--text-dimmer);
+}
+
+
+/* ---------- 5. QUESTION CARD ---------- */
+.quiz-card {
+  padding: 48px;
+  background: var(--quiz-surface);
+  border: 1px solid var(--quiz-border-accent);
+  border-radius: var(--quiz-radius-lg);
+}
+
+.quiz-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.quiz-counter {
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dimmer);
+}
+
+.quiz-topic {
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  color: var(--purple-light);
+  background: rgba(139, 92, 246, 0.14);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 999px;
+}
+
+.quiz-question {
+  padding: 36px 36px;
+  margin-bottom: 36px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  background: var(--quiz-surface-raised);
+  border: 1px solid var(--quiz-border);
+  border-radius: var(--quiz-radius-md);
+}
+
+
+/* ---------- 6. OPTIONS ---------- */
+.quiz-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.quiz-option {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 26px 30px;
+  text-align: left;
+  font: inherit;
+  font-size: 1.15rem;
+  color: var(--text);
+  background: var(--quiz-surface-raised);
+  border: 1px solid var(--quiz-border);
+  border-radius: var(--quiz-radius-sm);
+  cursor: pointer;
+  transition: border-color .15s ease, background .15s ease;
+}
+
+.quiz-option:not(:disabled):hover {
+  border-color: var(--purple);
+  background: rgba(139, 92, 246, 0.08);
+}
+
+.quiz-option:focus-visible,
+.quiz-next:focus-visible,
+.quiz-help:focus-visible {
+  outline: 2px solid var(--purple-light);
+  outline-offset: 2px;
+}
+
+.quiz-option-key {
+  font-size: 0.9rem;
+  color: var(--text-dimmer);
+}
+
+/* States — toggle these classes from JS when you wire up the quiz */
+.quiz-option.is-selected {
+  border-color: var(--purple);
+  background: rgba(139, 92, 246, 0.16);
+}
+
+.quiz-option.is-correct {
+  border-color: var(--green);
+  background: rgba(34, 197, 94, 0.1);
+}
+
+.quiz-option.is-incorrect {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.quiz-option:disabled {
+  cursor: default;
+}
+
+
+/* ---------- 7. FOOTER + HELP BUTTON ---------- */
+.quiz-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quiz-next {
+  padding: 18px 28px;
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #a56ef7, #7c3aed);
+  border: none;
+  border-radius: var(--quiz-radius-sm);
+  cursor: pointer;
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+
+.quiz-next:hover:not(:disabled) {
+  box-shadow: 0 6px 24px rgba(139, 92, 246, 0.45);
+  transform: translateY(-1px);
+}
+
+/* disabled = no answer picked yet */
+.quiz-next:disabled {
+  color: var(--text-dimmer);
+  background: rgba(139, 92, 246, 0.25);
+  cursor: not-allowed;
+}
+
+.quiz-help {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 48px;
+  height: 48px;
+  font: inherit;
+  font-size: 1.3rem;
+  color: var(--text);
+  background: #2a2a2e;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.quiz-help:hover {
+  background: #36363b;
+}
+
+
+/* ---------- 9. FEEDBACK + CHECK BUTTON (added for quiz.js) ---------- */
+.quiz-feedback {
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  border-radius: var(--quiz-radius-sm);
+  border: 1px solid transparent;
+}
+
+.quiz-feedback.is-correct {
+  color: #6ee7a0;
+  background: rgba(34, 197, 94, 0.08);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.quiz-feedback.is-incorrect {
+  color: #fca5a5;
+  background: rgba(239, 68, 68, 0.08);
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+/* "Check answer" is only shown for select-all questions */
+.quiz-footer { gap: 12px; }
+
+.quiz-check {
+  padding: 18px 28px;
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--purple);
+  border-radius: var(--quiz-radius-sm);
+  cursor: pointer;
+}
+
+.quiz-check:hover:not(:disabled) { background: rgba(139, 92, 246, 0.12); }
+
+.quiz-check:disabled {
+  color: var(--text-dimmer);
+  border-color: var(--quiz-border);
+  cursor: not-allowed;
+}
+
+
+/* ---------- 8. RESPONSIVE ---------- */
+@media (max-width: 860px) {
+  .quiz-title { font-size: 2rem; }
+  .quiz-progress { padding: 12px 20px; }
+
+  .quiz-stats { gap: 12px; }
+  .quiz-stat { padding: 18px 8px; }
+
+  .quiz-card { padding: 24px; }
+  .quiz-question { padding: 24px; font-size: 1.4rem; }
+  .quiz-options { grid-template-columns: 1fr; }
+  .quiz-option { padding: 20px 22px; }
+}
+
+@media (max-width: 520px) {
+  .quiz-head { flex-direction: column; }
+  .quiz-stat-value { font-size: 1.5rem; }
+  .quiz-stat-note { display: none; }
+}
