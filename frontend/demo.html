@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practice session · MusicTheory.com</title>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+
+<main class="quiz">
+
+  <!-- Page header -->
+  <div class="quiz-head">
+    <div>
+      <p class="quiz-eyebrow" id="quiz-eyebrow">Loading…</p>
+      <h1 class="quiz-title">Practice session</h1>
+    </div>
+
+    <div class="quiz-progress">
+      <strong class="quiz-progress-value" id="quiz-progress-value">0%</strong>
+      <span class="quiz-progress-label">Complete</span>
+    </div>
+  </div>
+
+  <!-- Session stats -->
+  <div class="quiz-stats">
+    <div class="quiz-stat">
+      <strong class="quiz-stat-value" id="stat-today">0</strong>
+      <span class="quiz-stat-label">Today</span>
+      <span class="quiz-stat-note">questions</span>
+    </div>
+
+    <div class="quiz-stat">
+      <strong class="quiz-stat-value" id="stat-accuracy">—</strong>
+      <span class="quiz-stat-label">Accuracy</span>
+      <span class="quiz-stat-note">this session</span>
+    </div>
+
+    <div class="quiz-stat">
+      <strong class="quiz-stat-value">5d</strong>
+      <span class="quiz-stat-label">Streak</span>
+      <span class="quiz-stat-note">best: 12d</span>
+    </div>
+  </div>
+
+  <!-- Question card (filled in by quiz.js) -->
+  <article class="quiz-card">
+    <div class="quiz-card-top">
+      <p class="quiz-counter" id="quiz-counter">Question 1 of 1</p>
+      <span class="quiz-topic" id="quiz-topic">…</span>
+    </div>
+
+    <h2 class="quiz-question" id="quiz-question">Loading question…</h2>
+
+    <div class="quiz-options" id="quiz-options"></div>
+
+    <p class="quiz-feedback" id="quiz-feedback" role="status" hidden></p>
+
+    <div class="quiz-footer">
+      <button class="quiz-check" id="quiz-check" type="button" hidden disabled>Check answer</button>
+      <button class="quiz-next" id="quiz-next" type="button" disabled>Next question →</button>
+    </div>
+  </article>
+
+  <button class="quiz-help" type="button" aria-label="Help">?</button>
+
+</main>
+
+<script src="quiz.js" defer></script>
+</body>
+</html>
