@@ -12,7 +12,7 @@ const questionSchema = new mongoose.Schema(
     answer: { type: mongoose.Schema.Types.Mixed, required: true },
     why: { type: String, default: "" },
   },
-  { collection: "question", versionKey: false }
+  { collection: "musictheory", versionKey: false }
 );
 
 export default mongoose.model("Question", questionSchema);
