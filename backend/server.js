@@ -3,6 +3,9 @@ import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
 import questionRoutes from "./routes/questions.js";
+import path from "path";
+import { fileURLToPath } from "url";
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const { PORT = 3000, MONGODB_URI, CORS_ORIGIN = "*" } = process.env;
 
@@ -19,6 +22,7 @@ app.get("/api/health", (_req, res) =>
   res.json({ ok: true, db: mongoose.connection.readyState === 1 ? "connected" : "disconnected" })
 );
 app.use("/api", questionRoutes);
+app.use(express.static(path.join(__dirname, "public")));
 
 app.use((req, res) => res.status(404).json({ error: "Not found" }));
 app.use((err, _req, res, _next) => {

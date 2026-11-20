@@ -9,7 +9,7 @@
    Optional URL filters:  demo.html?level=1  ·  ?topic=Intervals  ·  ?type=multi
    ========================================================= */
 
-const API_BASE = "http://localhost:3000/api";   // must match PORT in backend/.env
+const API_BASE = "/api";   // must match PORT in backend/.env
 const SESSION_SIZE = 10;                        // questions per session
 const TODAY_STORAGE_KEY = "musictheory:today";  // remembers today's question count
 
