@@ -15,7 +15,7 @@ if (!MONGODB_URI) {
 }
 
 const app = express();
-app.use(cors({ origin: CORS_ORIGIN === "*" ? true : CORS_ORIGIN.split(",").map((s) => s.trim()) }));
+//app.use(cors({ origin: CORS_ORIGIN === "*" ? true : CORS_ORIGIN.split(",").map((s) => s.trim()) }));
 app.use(express.json());
 
 app.get("/api/health", (_req, res) =>
